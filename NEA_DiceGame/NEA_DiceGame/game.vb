@@ -7,10 +7,11 @@
     Dim Dice3 As Integer
     Dim Dice4 As Integer
     Dim iseven As Boolean
+    Dim Generator As System.Random = New System.Random()
 
     Private Sub SP_BTN_Click(sender As Object, e As EventArgs) Handles SP_BTN.Click
-        Dice1 = Math.Ceiling(Rnd() * 6)
-        Dice2 = Math.Ceiling(Rnd() * 6)
+        Dice1 = Generator.Next(1, 6)
+        Dice2 = Generator.Next(1, 6)
 
         Select Case Dice1
             Case 1
@@ -107,8 +108,8 @@
     End Sub
 
     Private Sub TP_BTN_Click(sender As Object, e As EventArgs) Handles TP_BTN.Click
-        Dice1 = Math.Ceiling(Rnd() * 6)
-        Dice2 = Math.Ceiling(Rnd() * 6)
+        Dice1 = Generator.Next(1, 6)
+        Dice2 = Generator.Next(1, 6)
 
         Select Case Dice1
             Case 1
@@ -169,7 +170,7 @@
 
         ElseIf (Dice1 = Dice2) Then
             Player2Score += (Dice1 + Dice2)
-            Dice3 = Math.Ceiling(Rnd() * 6)
+            Dice3 = Generator.Next(1, 6)
             Player2Score += (Dice3)
             P2Score.Text = CStr(Player2Score)
             Rounds += 1
@@ -245,8 +246,8 @@
 
 
                 Do While Player1Score = Player2Score
-                    Dice1 = Math.Ceiling(Rnd() * 6)
-                    Dice2 = Math.Ceiling(Rnd() * 6)
+                    Dice1 = Generator.Next(1, 6)
+                    Dice2 = Generator.Next(1, 6)
 
                     Select Case Dice1
                         Case 1
@@ -301,7 +302,7 @@
 
                     ElseIf (Dice1 = Dice2) Then
                         Player1Score += (Dice1 + Dice2)
-                        Dice3 = Math.Ceiling(Rnd() * 6)
+                        Dice3 = Generator.Next(1, 6)
                         Player1Score += (Dice3)
                         P1Score.Text = CStr(Player1Score)
                         MessageBox.Show("Player 2's Dice will now roll")
@@ -331,8 +332,8 @@
                     Dice2Face5.Visible = False
                     Dice2Face6.Visible = False
 
-                    Dice1 = Math.Ceiling(Rnd() * 6)
-                    Dice2 = Math.Ceiling(Rnd() * 6)
+                    Dice1 = Generator.Next(1, 6)
+                    Dice2 = Generator.Next(1, 6)
 
                     Select Case Dice1
                         Case 1
@@ -391,7 +392,7 @@
 
                     ElseIf (Dice1 = Dice2) Then
                         Player2Score += (Dice1 + Dice2)
-                        Dice3 = Math.Ceiling(Rnd() * 6)
+                        Dice3 = Generator.Next(1, 6)
                         Player2Score += (Dice3)
                         P2Score.Text = CStr(Player2Score)
                         Rounds += 1
