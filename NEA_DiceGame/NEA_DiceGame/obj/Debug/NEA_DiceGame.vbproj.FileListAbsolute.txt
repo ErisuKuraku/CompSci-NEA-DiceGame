@@ -1,0 +1,13 @@
+\\birfile01\studentdata$\eclarke10\Desktop\Computer Science Projects\NEA - Dice Game\NEA_DiceGame\NEA_DiceGame\bin\Debug\NEA_DiceGame.exe.config
+\\birfile01\studentdata$\eclarke10\Desktop\Computer Science Projects\NEA - Dice Game\NEA_DiceGame\NEA_DiceGame\bin\Debug\NEA_DiceGame.exe
+\\birfile01\studentdata$\eclarke10\Desktop\Computer Science Projects\NEA - Dice Game\NEA_DiceGame\NEA_DiceGame\bin\Debug\NEA_DiceGame.pdb
+\\birfile01\studentdata$\eclarke10\Desktop\Computer Science Projects\NEA - Dice Game\NEA_DiceGame\NEA_DiceGame\bin\Debug\NEA_DiceGame.xml
+\\birfile01\studentdata$\eclarke10\Desktop\Computer Science Projects\NEA - Dice Game\NEA_DiceGame\NEA_DiceGame\obj\Debug\NEA_DiceGame.vbprojAssemblyReference.cache
+\\birfile01\studentdata$\eclarke10\Desktop\Computer Science Projects\NEA - Dice Game\NEA_DiceGame\NEA_DiceGame\obj\Debug\NEA_DiceGame.Resources.resources
+\\birfile01\studentdata$\eclarke10\Desktop\Computer Science Projects\NEA - Dice Game\NEA_DiceGame\NEA_DiceGame\obj\Debug\NEA_DiceGame.vbproj.GenerateResource.cache
+\\birfile01\studentdata$\eclarke10\Desktop\Computer Science Projects\NEA - Dice Game\NEA_DiceGame\NEA_DiceGame\obj\Debug\NEA_DiceGame.exe
+\\birfile01\studentdata$\eclarke10\Desktop\Computer Science Projects\NEA - Dice Game\NEA_DiceGame\NEA_DiceGame\obj\Debug\NEA_DiceGame.xml
+\\birfile01\studentdata$\eclarke10\Desktop\Computer Science Projects\NEA - Dice Game\NEA_DiceGame\NEA_DiceGame\obj\Debug\NEA_DiceGame.pdb
+\\birfile01\studentdata$\eclarke10\Desktop\Computer Science Projects\NEA - Dice Game\NEA_DiceGame\NEA_DiceGame\obj\Debug\NEA_DiceGame.login.resources
+\\birfile01\studentdata$\eclarke10\Desktop\Computer Science Projects\NEA - Dice Game\NEA_DiceGame\NEA_DiceGame\obj\Debug\NEA_DiceGame.game.resources
+\\birfile01\studentdata$\eclarke10\Desktop\Computer Science Projects\NEA - Dice Game\NEA_DiceGame\NEA_DiceGame\obj\Debug\NEA_DiceGame.winner.resources
