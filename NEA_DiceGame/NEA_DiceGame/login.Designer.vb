@@ -22,6 +22,7 @@ Partial Class login
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(login))
         Me.User_TXB = New System.Windows.Forms.TextBox()
         Me.Pass_TXB = New System.Windows.Forms.TextBox()
         Me.Login_BTN = New System.Windows.Forms.Button()
@@ -46,7 +47,7 @@ Partial Class login
         '
         'Login_BTN
         '
-        Me.Login_BTN.Location = New System.Drawing.Point(106, 64)
+        Me.Login_BTN.Location = New System.Drawing.Point(110, 66)
         Me.Login_BTN.Name = "Login_BTN"
         Me.Login_BTN.Size = New System.Drawing.Size(75, 23)
         Me.Login_BTN.TabIndex = 2
@@ -82,6 +83,8 @@ Partial Class login
         Me.Controls.Add(Me.Login_BTN)
         Me.Controls.Add(Me.Pass_TXB)
         Me.Controls.Add(Me.User_TXB)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(272, 137)
         Me.MinimumSize = New System.Drawing.Size(272, 137)
         Me.Name = "login"

@@ -22,6 +22,7 @@ Partial Class winner
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(winner))
         Me.Playing_Label = New System.Windows.Forms.Label()
         Me.Title_Label = New System.Windows.Forms.Label()
         Me.Name_TXB = New System.Windows.Forms.TextBox()
@@ -33,7 +34,7 @@ Partial Class winner
         '
         Me.Playing_Label.AutoSize = True
         Me.Playing_Label.Font = New System.Drawing.Font("Gill Sans MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Playing_Label.Location = New System.Drawing.Point(34, 9)
+        Me.Playing_Label.Location = New System.Drawing.Point(12, 9)
         Me.Playing_Label.Name = "Playing_Label"
         Me.Playing_Label.Size = New System.Drawing.Size(190, 27)
         Me.Playing_Label.TabIndex = 1
@@ -43,7 +44,7 @@ Partial Class winner
         '
         Me.Title_Label.AutoSize = True
         Me.Title_Label.Font = New System.Drawing.Font("Gill Sans MT", 12.0!)
-        Me.Title_Label.Location = New System.Drawing.Point(58, 48)
+        Me.Title_Label.Location = New System.Drawing.Point(35, 48)
         Me.Title_Label.Name = "Title_Label"
         Me.Title_Label.Size = New System.Drawing.Size(139, 23)
         Me.Title_Label.TabIndex = 2
@@ -51,15 +52,15 @@ Partial Class winner
         '
         'Name_TXB
         '
-        Me.Name_TXB.Location = New System.Drawing.Point(62, 74)
+        Me.Name_TXB.Location = New System.Drawing.Point(48, 74)
         Me.Name_TXB.Name = "Name_TXB"
-        Me.Name_TXB.Size = New System.Drawing.Size(135, 20)
+        Me.Name_TXB.Size = New System.Drawing.Size(117, 20)
         Me.Name_TXB.TabIndex = 3
         '
         'Submit_BTN
         '
         Me.Submit_BTN.Font = New System.Drawing.Font("Gill Sans MT", 12.0!)
-        Me.Submit_BTN.Location = New System.Drawing.Point(90, 100)
+        Me.Submit_BTN.Location = New System.Drawing.Point(69, 100)
         Me.Submit_BTN.Name = "Submit_BTN"
         Me.Submit_BTN.Size = New System.Drawing.Size(75, 34)
         Me.Submit_BTN.TabIndex = 4
@@ -71,7 +72,7 @@ Partial Class winner
         Me.Leaderboard_TXB.Location = New System.Drawing.Point(39, 74)
         Me.Leaderboard_TXB.Multiline = True
         Me.Leaderboard_TXB.Name = "Leaderboard_TXB"
-        Me.Leaderboard_TXB.Size = New System.Drawing.Size(185, 116)
+        Me.Leaderboard_TXB.Size = New System.Drawing.Size(140, 116)
         Me.Leaderboard_TXB.TabIndex = 5
         Me.Leaderboard_TXB.Visible = False
         '
@@ -79,16 +80,17 @@ Partial Class winner
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(263, 225)
+        Me.ClientSize = New System.Drawing.Size(214, 225)
         Me.Controls.Add(Me.Leaderboard_TXB)
         Me.Controls.Add(Me.Submit_BTN)
         Me.Controls.Add(Me.Name_TXB)
         Me.Controls.Add(Me.Title_Label)
         Me.Controls.Add(Me.Playing_Label)
-        Me.MaximumSize = New System.Drawing.Size(279, 263)
-        Me.MinimumSize = New System.Drawing.Size(279, 263)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximumSize = New System.Drawing.Size(230, 263)
+        Me.MinimumSize = New System.Drawing.Size(230, 263)
         Me.Name = "winner"
-        Me.Text = "winner"
+        Me.Text = "GameOver!"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

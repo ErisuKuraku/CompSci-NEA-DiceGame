@@ -265,10 +265,12 @@ Partial Class game
         Me.Controls.Add(Me.P1Score)
         Me.Controls.Add(Me.TP_BTN)
         Me.Controls.Add(Me.SP_BTN)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(376, 534)
         Me.MinimumSize = New System.Drawing.Size(376, 534)
         Me.Name = "game"
-        Me.Text = "game"
+        Me.Text = "NEA_DiceGame"
         CType(Me.DiceFace1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DiceFace2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DiceFace3, System.ComponentModel.ISupportInitialize).EndInit()

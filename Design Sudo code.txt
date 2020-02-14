@@ -1,0 +1,92 @@
+start
+output("Please login")
+if usrbox = "user" and
+   passbox = "password1" then
+     open game.vb
+else
+    output("wrong login info, try again!")
+
+	end if
+
+	---------------------------------------------
+dim dice1 as interger
+dim dice2 as interger
+dim dice3 as interger
+dim dice4 as interger
+dim player1_points as interger  
+dim player2_points as interger
+dim rounds as interger
+dim winnerscore as interger
+
+if p1roll_btn is clicked then
+      rndint (1, 6) = dice1
+      rndint (1, 6) = dice2
+    
+	if dice1 + dice2 is odd then
+             player1_points + (dice1 + dice2)
+			 player1_points - 5
+       else if dice1 + dice2 is even then
+             player1_points + (dice1 + dice2)
+			 player1_points + 10
+
+       else if dice1 = dice2 then
+		  rndint (1, 6) = dice3
+		 player1_points + (dice1 + dice2)
+		 player1_points + dice3
+		 
+	End if
+	
+if player1_points =< 0 then
+        player1_points = 0
+		
+	End if
+		 
+output("Player 2, Roll your dice!")
+          
+if p2roll_btn is clicked then
+        
+		rndint (1, 6) = dice1
+      rndint (1, 6) = dice2
+    
+	if dice1 + dice2 is odd then
+             player2_points + (dice1 + dice2)
+			 player2_points - 5
+       else if dice1 + dice2 is even then
+             player2_points + (dice1 + dice2)
+			 player2_points + 10
+
+       else if dice1 = dice2 then
+		  rndint (1, 6) = dice3
+		 player2_points + (dice1 + dice2)
+		 player2_points + dice3
+		 
+		end if
+		
+		if player1_points =< 0 then
+        player1_points = 0
+		
+	End if
+	
+	if Rounds = 5 then
+	elseif player1_points > player2_points then
+	    output("Player 1 Wins!")
+		winnerscore = player1_points
+	    me.hide()
+		winnerscreen.show()
+	elseif player1_points < player2_points then
+		output("Player 2 Wins!")
+		winnerscore = player2_points
+		me.hide()
+		winnerscreen.show()
+	elseif player1_points = player2_points then
+	    dice1 = rndint (1, 6)
+		dice2 = rndint (1, 6)
+		 
+		
+		
+--------------------------------------------------------
+
+output("Please tell me your name?")
+Write NameBox.text and winnerscore to leaderboard.txt
+
+		 
