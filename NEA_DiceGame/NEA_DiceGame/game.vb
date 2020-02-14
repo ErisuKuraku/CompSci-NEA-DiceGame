@@ -226,42 +226,29 @@ MessageBox.Show("Player 1, Roll your dice!")
                     Select Case Dice1
                         Case 1
                             DiceFace1.Visible = True
-
                         Case 2
                             DiceFace2.Visible = True
-
                         Case 3
                             DiceFace3.Visible = True
-
                         Case 4
                             DiceFace4.Visible = True
-
                         Case 5
                             DiceFace5.Visible = True
-
-
                         Case 6
                             DiceFace6.Visible = True
 
                     End Select
-
                     Select Case Dice2
                         Case 1
                             Dice2Face1.Visible = True
-
                         Case 2
                             Dice2Face2.Visible = True
-
                         Case 3
                             Dice2Face3.Visible = True
-
                         Case 4
                             Dice2Face4.Visible = True
-
                         Case 5
                             Dice2Face5.Visible = True
-
-
                         Case 6
                             Dice2Face6.Visible = True
 
@@ -312,20 +299,14 @@ MessageBox.Show("Player 1, Roll your dice!")
                     Select Case Dice1
                         Case 1
                             DiceFace1.Visible = True
-
                         Case 2
                             DiceFace2.Visible = True
-
                         Case 3
                             DiceFace3.Visible = True
-
                         Case 4
                             DiceFace4.Visible = True
-
                         Case 5
                             DiceFace5.Visible = True
-
-
                         Case 6
                             DiceFace6.Visible = True
 
@@ -334,20 +315,14 @@ MessageBox.Show("Player 1, Roll your dice!")
                     Select Case Dice2
                         Case 1
                             Dice2Face1.Visible = True
-
                         Case 2
                             Dice2Face2.Visible = True
-
                         Case 3
                             Dice2Face3.Visible = True
-
                         Case 4
                             Dice2Face4.Visible = True
-
                         Case 5
                             Dice2Face5.Visible = True
-
-
                         Case 6
                             Dice2Face6.Visible = True
 
