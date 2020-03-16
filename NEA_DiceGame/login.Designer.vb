@@ -77,7 +77,7 @@ Partial Class login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(256, 99)
+        Me.ClientSize = New System.Drawing.Size(256, 98)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Login_BTN)
@@ -88,7 +88,7 @@ Partial Class login
         Me.MaximumSize = New System.Drawing.Size(272, 137)
         Me.MinimumSize = New System.Drawing.Size(272, 137)
         Me.Name = "login"
-        Me.Text = "Please login to Continue"
+        Me.Text = "DiceGame - Login"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
