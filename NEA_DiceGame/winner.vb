@@ -1,5 +1,6 @@
 ﻿
 Public Class winner
+    'This code must not be copied but only used as a guide to write your own code 
     Public Property WinScore As Integer
     Dim leaderline As String
     Dim leaderdata As String
