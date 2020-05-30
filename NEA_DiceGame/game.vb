@@ -1,4 +1,7 @@
 ﻿Public Class game
+    
+    'This code must not be copied but only used as a guide to write your own code 
+    
     Dim Player1Score As Integer
     Dim Player2Score As Integer
     Dim Rounds As Integer
