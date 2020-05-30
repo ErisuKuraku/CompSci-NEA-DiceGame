@@ -8,7 +8,7 @@ Since our year of GCSEs are cancelled I might as well release the source code I 
 
 This is defuncted in 2022 anyway since they arn't doing the programming task anymore after that year, but ive got to cover my back for 2021 I suppose.
 
-Looking for the same program but in <b> JavaScript? </b> Check this person out: [Thomas Fairey](https://github.com/tomfairey/DiceRoller)
+Looking for a simular program but in <b> JavaScript? </b> Check this person out: [Thomas Fairey](https://github.com/tomfairey/DiceRoller)
 
 
 
