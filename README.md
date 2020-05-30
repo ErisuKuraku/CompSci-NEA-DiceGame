@@ -9,3 +9,14 @@ Since our year of GCSEs are cancelled I might as well release the source code I 
 This is defuncted in 2022 anyway since they arn't doing the programming task anymore after that year, but ive got to cover my back for 2021 I suppose.
 
 Looking for the same program but in <b> JavaScript? </b> Check this person out: [Thomas Fairey](https://github.com/tomfairey/DiceRoller)
+
+
+
+# System Requirements
+ 
+ - <b> A Windows PC </b> ( Windows 8.1 or higher)
+ 
+ - <b> Microsoft .Net Framework </b> (The latest you can download)
+ 
+ - <b> Microsoft Visual Studio with .Net application functions installed </b> (free version (community) will do)
+ 
