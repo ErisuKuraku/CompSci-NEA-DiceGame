@@ -1,6 +1,6 @@
 # Computer Science Dice Game - GCSE NEA
 
-Since our year of GCSEs are cancelled I might aswell release the source code I wrote before schools closed to help others.
+Since our year of GCSEs are cancelled I might as well release the source code I wrote before schools closed to help others.
 
 <b> This code and (some) of the written portion must not be copied but only as a guide to write your own code </b>
 
