@@ -18,5 +18,5 @@ Looking for a simular program but in <b> JavaScript? </b> Check this person out:
  
  - <b> Microsoft .Net Framework </b> (The latest you can download)
  
- - <b> Microsoft Visual Studio with .Net application functions installed </b> (free version (community) will do)
+ - <b> Microsoft Visual Studio with .Net application functions installed </b> (free version will do)
  
